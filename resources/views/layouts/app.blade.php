@@ -35,6 +35,11 @@
        {
            color:#ddd9db!important;
        }
+       button
+       {
+           background-color:#ab3b61!important;
+           border-color:#ffffff!important;
+       }
      </style>
 
 </head>
