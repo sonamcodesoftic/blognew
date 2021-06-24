@@ -9,6 +9,9 @@
                 <div class="card-body">
                     You are Admin.
                 </div>
+                <div class="card-body">
+                    <button> <a href="{{url('add')}}">Add Product</a></button>
+                </div>
             </div>
         </div>
     </div>
