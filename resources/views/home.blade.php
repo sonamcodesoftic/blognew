@@ -119,10 +119,19 @@
     background-color: #ab3b61;
     border-color: #ab3b61;
 }
+.btn-warning:hover {
+    color: #ffffff;
+    background-color: #ab3b61;
+    border-color: #ab3b61;
+}
 
 .thumbnail {
     border: 2px solid white!important;
     box-shadow:1px 1px 15px 9px #d6d6d6!important;
+}
+button:hover
+{
+  background-color:#ab3b61!important;
 }
 
 

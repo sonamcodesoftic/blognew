@@ -28,8 +28,6 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
-    
-
      <style>
        .navbar
        {
@@ -60,6 +58,11 @@
        button
        {
            background-color:#ab3b61!important;
+           color:#ffffff!important;
+       }
+       button:hover
+       {
+        background-color:#ab3b61!important;
            color:#ffffff!important;
        }
 
@@ -159,7 +162,7 @@
                         @foreach(session('cart') as $id => $details)
                             <div class="row cart-detail" style="margin-top:10%!important;">
                                 <div class="col-lg-4 col-sm-4 col-4 cart-detail-img">
-                                    <img src="{{$details['photo'] }}" width="60" height="60" />
+                                    <img src="{{url('/images/'.$details['photo'])}}" width="60" height="60" />
                                 </div>
                                 <div class="col-lg-8 col-sm-8 col-8 cart-detail-product" style="font-size:10px!important;">
                                     <p>{{ $details['name'] }}</p>
