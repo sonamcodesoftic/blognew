@@ -29,4 +29,10 @@ class HomeController extends Controller
     {
         return view('adminHome');
     }
+
+    //php validations 
+    // public function create()
+    // {
+    //   return view('register') 
+    // }
 }
