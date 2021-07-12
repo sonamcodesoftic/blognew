@@ -111,18 +111,18 @@
                             @endif
                         @else
                            <ul class="navbar-nav">
-                           <li class="nav-item">
+                           <!-- <li class="nav-item">
                                <a class="nav-link" href="{{'home'}}">Home</a>
-                           </li>
-                           <li class="nav-item">
+                           </li> -->
+                           <!-- <li class="nav-item">
                                <a class="nav-link" href="#">Products</a>
-                           </li>
-                           <li class="nav-item">
+                           </li> -->
+                           <!-- <li class="nav-item">
                                <a class="nav-link" href="{{url('add')}}">Add Product</a>
-                           </li>
+                           </li> -->
                            <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }}
+                                    {{ Auth::user()->fname }}
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -149,11 +149,11 @@
                            <li class="nav-item">
 
                              <!-- Cart details Starts -->
-                             <div class="dropdown">
+                             <!-- <div class="dropdown">
                 <button type="button" class="btn btn-info" data-toggle="dropdown">
                     <i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart <span class="badge badge-pill badge-danger">{{ count((array) session('cart')) }}</span>
                 </button>
-                <!-- <button type="button" class="btn btn-info"><a href="add-product">Add products</a></button> -->
+         
                 <div class="dropdown-menu">
                     <div class="row total-header-section">
                         <div class="col-lg-6 col-sm-6 col-6">
@@ -186,14 +186,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
-                             <!-- Cart details Starts -->
+            </div> -->
+                             <!-- Cart details Ends -->
                            
                            </li >
-                           
-                           
-                            
-
+                    
                            </ul>
                            
 

@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductsController;
 
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,6 +33,7 @@ Route::patch('update-cart', 'App\Http\Controllers\ProductsController@update');
 Route::delete('remove-from-cart', 'App\Http\Controllers\ProductsController@remove');
 Route::get('add', 'App\Http\Controllers\ProductsController@addproduct');
 Route::post('newproduct','App\Http\Controllers\ProductsController@newproduct');
+
 
 
 
